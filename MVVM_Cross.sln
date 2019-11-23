@@ -29,9 +29,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieTaylorModified.Android
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuadraticEquations", "QuadraticEquations", "{B925C9F0-4B08-452E-9541-1348F104B272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations.Core", "QuadraticEquations.Core\QuadraticEquations.Core.csproj", "{13E46CE7-7DDB-45A7-ABF1-5F3C69A0D608}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquations.Core", "QuadraticEquations.Core\QuadraticEquations.Core.csproj", "{13E46CE7-7DDB-45A7-ABF1-5F3C69A0D608}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations.Android", "QuadraticEquations.Android\QuadraticEquations.Android.csproj", "{B47CD891-FF71-41DF-8DEF-A3A06891DD0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SerieFibonacci", "SerieFibonacci", "{FF42EF27-E913-45CA-A926-66414B40E6B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieFibonacci.Android", "SerieFibonacci.Android\SerieFibonacci.Android.csproj", "{51A036BA-AB52-4D73-87E4-CB60AC51B39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerieFibonacci.Core", "SerieFibonacci.Core\SerieFibonacci.Core.csproj", "{49BCF13F-44A0-4C49-9850-3DA29111F1C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,16 @@ Global
 		{B47CD891-FF71-41DF-8DEF-A3A06891DD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47CD891-FF71-41DF-8DEF-A3A06891DD0D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B47CD891-FF71-41DF-8DEF-A3A06891DD0D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{51A036BA-AB52-4D73-87E4-CB60AC51B39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A036BA-AB52-4D73-87E4-CB60AC51B39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A036BA-AB52-4D73-87E4-CB60AC51B39B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{51A036BA-AB52-4D73-87E4-CB60AC51B39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A036BA-AB52-4D73-87E4-CB60AC51B39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A036BA-AB52-4D73-87E4-CB60AC51B39B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{49BCF13F-44A0-4C49-9850-3DA29111F1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BCF13F-44A0-4C49-9850-3DA29111F1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BCF13F-44A0-4C49-9850-3DA29111F1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BCF13F-44A0-4C49-9850-3DA29111F1C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +120,8 @@ Global
 		{04D741C5-8B89-402D-8D16-933D753BA48D} = {92977BEA-3B49-425A-9BB7-F074FFA4D5C6}
 		{13E46CE7-7DDB-45A7-ABF1-5F3C69A0D608} = {B925C9F0-4B08-452E-9541-1348F104B272}
 		{B47CD891-FF71-41DF-8DEF-A3A06891DD0D} = {B925C9F0-4B08-452E-9541-1348F104B272}
+		{51A036BA-AB52-4D73-87E4-CB60AC51B39B} = {FF42EF27-E913-45CA-A926-66414B40E6B2}
+		{49BCF13F-44A0-4C49-9850-3DA29111F1C1} = {FF42EF27-E913-45CA-A926-66414B40E6B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A23212E-BF13-441B-87AD-F4603434204D}
